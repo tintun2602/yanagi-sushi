@@ -1,20 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../img/yanagi.jpg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <StyledNav>
-      <img href="#" alt="store-logo" src={logo}></img>
+      <img alt="store-logo" src={logo}></img>
       <ul>
         <li>
-          <a href="#">Hjem</a>
+          <Link to="/">Hjem</Link>
         </li>
         <li>
-          <a href="#">Meny</a>
+          <Link to="/meny">Meny</Link>
         </li>
         <li>
-          <a href="#">Kontakt Oss</a>
+          <Link to="/kontakt">Kontakt Oss</Link>
         </li>
       </ul>
     </StyledNav>
