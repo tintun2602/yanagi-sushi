@@ -1,28 +1,33 @@
 import React from "react";
 import sushi1 from "../img/sushi1.jpg";
+//Styled
+import styled from "styled-components";
 
+import { About, Description, Image, Hide } from "../styles";
 const AboutSection = () => {
   return (
-    <div>
-      <div className="description">
+    <About>
+      <Description>
         <div className="title">
-          <div className="hide">
-            <h2>Yanagi Sushi</h2>
-          </div>
-          <div className="hide">
+          <Hide>
+            <h2>Velkommen</h2>
+          </Hide>
+          <Hide>
             <h2>
-              Velkommen<span> til</span> oss
+              til <span>Yanagi Sushi</span>
             </h2>
-          </div>
+          </Hide>
         </div>
         <p>Vi lager Tønsbergs beste take-away sushi til gode priser</p>
         <button>Kontakt oss</button>
-      </div>
-      <div className="image">
+      </Description>
+      <Image>
         <img src={sushi1} alt="sushi" />
-      </div>
-    </div>
+      </Image>
+    </About>
   );
 };
+
+//Styled Components
 
 export default AboutSection;
