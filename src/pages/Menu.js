@@ -12,17 +12,23 @@ const Menu = () => {
       <MenuItem>
         <h2>Nigiri</h2>
         <div className="line"></div>
-        <Link src={sushi1} alt="sushi1"></Link>
+        <Link>
+          <img src={sushi1} alt="sushi1"></img>
+        </Link>
       </MenuItem>
       <MenuItem>
         <h2>Tempura</h2>
         <div className="line"></div>
-        <Link src={sushi2} alt="sushi2"></Link>
+        <Link>
+          <img src={sushi2} alt="sushi2"></img>
+        </Link>
       </MenuItem>
       <MenuItem>
         <h2>Sashimi</h2>
         <div className="line"></div>
-        <Link src={sushi3} alt="sushi3"></Link>
+        <Link>
+          <img src={sushi3} alt="sushi3"></img>
+        </Link>
       </MenuItem>
     </StyledMenu>
   );
