@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-    background: black;
+    background: white; 
     font-family: "Roboto", san serif; 
 
 }
@@ -18,24 +18,25 @@ button {
     font-size: 1.1.rem; 
     cursor: pointer; 
     padding: 1rem 2rem; 
-    border: 3px solid #23d997; 
+    border: 3px solid #EB6E64;
     background: transparent; 
-    color: white;  
+    color: black; 
     transition: all 0.5s ease;
     font-family: "Roboto", san serif; 
     
     &:hover {
-        background-color: #23d997; 
-        color: white; 
+        background-color: #EB6E64; 
+        color: black; 
     }
    
 }
     h2{
         font-weight: lighter; 
         font-size: 4rem; 
+        color: black;
     }
     h3{
-        color:white; 
+        color:black; 
     }
     h4 {
         font-weight: bold; 
@@ -44,14 +45,14 @@ button {
     }
     span {
         font-weight: bold; 
-        color: #23d997;
+        color: #EB6E64;
     }
     a{ 
         font-size: 1.1rem;
     }
     p {
         padding: 3rem 0rem; 
-        color: #ccc; 
+        color: #a1a1a1; 
         font-size: 1.4rem; 
         line-height:150%; 
     }

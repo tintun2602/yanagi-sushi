@@ -41,7 +41,7 @@ const StyledMenu = styled.div`
 
   h2 {
     padding: 1rem 0rem;
-    color: white;
+    color: black;
   }
 `;
 

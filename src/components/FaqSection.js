@@ -74,6 +74,9 @@ const Faq = styled(About)`
   .question {
     padding: 3rem 0rem;
     cursor: pointer;
+    h4 {
+      color: black;
+    }
   }
   .answer {
     padding: 2rem 0rem;
