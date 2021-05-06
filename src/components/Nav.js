@@ -9,13 +9,13 @@ const Nav = () => {
       <img alt="store-logo" src={logo}></img>
       <ul>
         <li>
-          <Link to="/">Hjem</Link>
+          <Link to="/">HJEM</Link>
         </li>
         <li>
-          <Link to="/meny">Meny</Link>
+          <Link to="/meny">MENY</Link>
         </li>
         <li>
-          <Link to="/kontakt">Kontakt Oss</Link>
+          <Link to="/kontakt">KONTAKT OSS</Link>
         </li>
       </ul>
     </StyledNav>

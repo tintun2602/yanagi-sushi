@@ -10,23 +10,23 @@ const Menu = () => {
   return (
     <StyledMenu>
       <MenuItem>
-        <h2>Nigiri</h2>
+        <h2>Sashimi</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/meny/sushi1">
           <img src={sushi1} alt="sushi1"></img>
         </Link>
       </MenuItem>
       <MenuItem>
-        <h2>Tempura</h2>
+        <h2>Maki (8 Biter)</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/meny/sushi2">
           <img src={sushi2} alt="sushi2"></img>
         </Link>
       </MenuItem>
       <MenuItem>
-        <h2>Sashimi</h2>
+        <h2>Futo Maki: 6 / 12 Biter</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/meny/sushi3">
           <img src={sushi3} alt="sushi3"></img>
         </Link>
       </MenuItem>
